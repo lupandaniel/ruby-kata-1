@@ -3,7 +3,7 @@ module Echocat
     class Book < Base
       include ::Echocat::Printer
       def self.attributes
-        %i[яЛПtitle isbn authors description]
+        %i[title isbn authors description]
       end
     end
   end

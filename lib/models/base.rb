@@ -8,7 +8,7 @@ module Echocat
         @data       = data_model.new(*data_array)
       end
 
-      def attributes
+      def self.attributes
         raise NotImplementedError
       end
     end

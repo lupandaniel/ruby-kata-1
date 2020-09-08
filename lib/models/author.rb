@@ -4,7 +4,7 @@ module Echocat
       include ::Echocat::Printer
 
       def self.attributes
-        %i[яЛПemail firstname lastname]
+        %i[email firstname lastname]
       end
     end
   end

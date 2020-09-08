@@ -4,7 +4,7 @@ module Echocat
     module_function
 
     def from_path(path:)
-      CSV.open(path, 'r', col_sep: ';', encoding: "ISO-8859-5:utf-8")
+      CSV.open(path, 'r:bom|utf-8', col_sep: ';')
     end
 
     def read(resource:)

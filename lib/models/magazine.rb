@@ -4,7 +4,7 @@ module Echocat
       include ::Echocat::Printer
 
       def self.attributes
-        %i[яЛПtitle isbn authors publishedAt]
+        %i[title isbn authors publishedAt]
       end
     end
   end
